@@ -43,8 +43,8 @@ public class LockUtil {
         wmParams.type = LayoutParams.TYPE_SYSTEM_ERROR;// 关键部分
         wmParams.format = PixelFormat.RGBA_8888; // 设置图片格式，效果为背景透明
 // 设置Window flag
-        wmParams.width = LayoutParams.FILL_PARENT;
-        wmParams.height = LayoutParams.FILL_PARENT;
+        wmParams.width = LayoutParams.WRAP_CONTENT;
+        wmParams.height = LayoutParams.WRAP_CONTENT;
         wmParams.flags = 1280;
     }
     /**
